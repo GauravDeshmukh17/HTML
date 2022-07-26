@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+
+            width: 50vw;
+            height: 50vh;
+            border: solid 5px greenyellow;
+            font-size: 1.7vw;
+            margin: 1vw;
+            padding: 2vw;
+        }
+
+        table {
+
+            border: 1.5vw ridge blue;
+            font-size: 2vw;
+            border-collapse: collapse;
+        }
+
+        td{
+
+            border: 0.7vw groove rgb(168, 21, 46);
+            color:rgb(168, 21, 46)
+        }
+
+        th{
+
+            border: 0.7vw groove blue;
+            color: blue;
+        }
+
+        ul{
+
+            font-size: 2vw;
+        }
+
+        .box>div{       
+
+           background-color: lawngreen;
+           margin: 1vw;
+           padding: 1vw;
+           width: 7vw;
+           font-size: 2vw;
+           font-style: italic;
+           font-weight: bolder;
+           color: darkred;
+        }
+
+        .box{
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+        }
+
+        .anchorTag>li{
+
+            color: darkorange;
+            /* margin: 1vw; */
+        }
+
+        a{
+            color: darkorange;
+            margin: 1vw;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis sequi nostrum iure fuga in hic, dolorum dicta
+        impedit laboriosam similique incidunt excepturi explicabo veniam iusto vel beatae soluta magni blanditiis nam
+        enim ut repudiandae voluptas! Nostrum laborum ipsum, tempora similique tenetur accusamus praesentium ipsa modi
+        dolor temporibus assumenda nam in. Qui necessitatibus, vitae eligendi rerum, eius porro expedita rem aliquid
+        libero, laboriosam reprehenderit eveniet sequi architecto iure pariatur non quisquam ipsam placeat accusantium
+        ratione eos quos. Temporibus, soluta alias optio, quasi deserunt voluptatum architecto autem quisquam sint
+        officiis accusantium perspiciatis iure dignissimos eligendi, ratione rerum ex nisi culpa maiores dicta.</p>
+
+    <table border="1">
+
+        <caption>
+            <h3>TIME TABLE</h3>
+        </caption>
+
+        <thead>
+            <tr>
+                <th></th>
+                <th>Lecture 1</th>
+                <th>Lecture 2</th>
+                <th>Lecture 3</th>
+                <th>Lecture 4</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td>Physics</td>
+                <td>Chemistry</td>
+                <td>Mathematics</td>
+                <td>Sports</td>
+            </tr>
+
+            <tr>
+                <th>Tuesday</th>
+                <td>Mathematics</td>
+                <td>Chemistry</td>
+
+                <td>Physics</td>
+                <td>Sports</td>
+            </tr>
+
+            <tr>
+                <th>Wednesday</th>
+                <td>Mathematics</td>
+                <td>Physics</td>
+                <td>Chemistry</td>
+                <td>Sports</td>
+            </tr>
+
+            <tr>
+                <th>Thursday</th>
+                <td>Chemistry</td>
+                <td>Mathematics</td>
+                <td>Physics</td>
+                <td>Sports</td>
+            </tr>
+
+            <tr>
+                <th>Friday</th>
+                <td>Chemistry</td>
+                <td>Physics</td>
+                <td>Mathematics</td>
+                <td>Sports</td>
+            </tr>
+
+            <tr>
+                <th>Saturaday</th>
+                <td>Physics</td>
+                <td>Mathematics</td>
+                <td>Chemistry</td>
+                <td>Sports</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+        <ul type="square">
+            <li>India</li>
+            <ol type="I">
+                <li>Maharashtra
+                    <ul type="disc">
+                        <li>Pune</li>
+                        <li>Mumbai</li>
+                        <li>Aurangabad</li>
+                    </ul>
+                </li>
+                <li>Karnataka</li>
+                <li>Telangana</li>
+            </ol>
+        </ul>
+
+        <div class="box">
+        
+            <div>one</div>
+            <div>two</div>
+            <div>three</div>
+            <div>four</div>
+            <div>five</div>
+            <div>six</div>
+            <div>seven</div>
+            <div>eight</div>
+            <div>nine</div>
+            <div>ten</div>
+            <div>eleven</div>
+            <div>twelve</div>
+            <div>thirten</div>
+            <div>fourten</div>
+            <div>fiften</div>
+            <div>sixten</div>
+
+        </div>
+
+        <ul type="square">
+            <li><h3>Websites</h3></li>
+            <ol class="anchorTag">
+                <li><a href="https:/www.github.com" target="_blank">GO TO GITHUB</a></li>
+                <li><a href="https:/www.twitter.com" target="_blank">GO TO TWITTER</a></li>
+                <li><a href="https:/www.snapchat.com" target="_blank">GO TO SNAPCHAT</a></li>
+            </ol>
+        </ul>
+
+</body>
+
+</html>

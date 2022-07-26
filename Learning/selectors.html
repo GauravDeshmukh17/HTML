@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* This is Internal Stylling */
+
+        /* (A) Simple Selectors */
+        /* (i)Element Selector */
+        p {
+            color: rgb(154, 18, 207);
+        }
+
+        span {
+            font-size: 30px;
+            font-weight: 800;
+        }
+
+        /* (ii) Universal Selector */
+        * {
+            background-color: burlywood;
+        }
+
+        /* (iii) Class Selector */
+
+        .para2 {
+            font-style: oblique;
+            font-weight: 900;
+        }
+
+        /* (iv) Unique Selector */
+
+        #unique_id{
+
+            font-weight: 900;
+            font-family: monospace;
+            border: 4px double ;
+        }
+
+        /* (v) Grouping Selector */
+
+        a,.para3{
+
+            background-color: rgb(0, 244, 252);
+        }
+
+        /* (B) Combinators Selectors */
+        /* (i)Descendants Selector */
+
+        div span{
+
+            font-family:cursive;
+        }
+
+        /* (ii)Children Selector */
+
+        ol>li>a{
+
+            font-style: oblique;
+        }
+
+        /* Attribute Selector */
+
+        th[colspan="2"]{
+
+            border-color: royalblue;
+        }
+
+
+        /* ------------------------------------------------------------------------------------ */
+
+        caption{
+
+            font-size: 30px;
+            font-weight: bolder;
+        }
+
+        table{
+
+          /* border-style: solid;
+          border-color: red;
+          border-width: 10px; */
+
+          border:10px solid red;
+
+          /* border-collapse: collapse; */
+        }
+
+        th,td{
+
+            border: 6px solid rgb(223, 25, 190) ;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>CSS SELECTORS</h1>
+
+    <a href="https:/www.github.com" target="_blank">Go to GitHub(Abhishek Sir)</a><br>
+
+    <p>
+        Para 1 : Lorem2 ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquam fugit dolore minus est facere
+        quaerat assumenda autem neque consectetur? Illo laborum iusto aspernatur praesentium officiis blanditiis
+        facilis? Et, voluptatem? ipsum dolor sit amet consectetur adipisicing elit. Unde, dolore cumque itaque
+        voluptatum quis aliquam iusto officia odit eum ab? ipsum dolor sit amet consectetur adipisicing elit. Inventore
+        omnis debitis aliquam officiis sapiente possimus. Aut vitae incidunt illo error itaque. Neque molestiae veniam
+        totam, dicta rerum dolorem quam corrupti iste nemo? Unde consequatur ipsum vel repellat voluptatem sit quae
+        iusto officia, veritatis, nesciunt numquam. Quo dignissimos reiciendis nihil cumque!
+    </p>
+
+    <p class="para2">
+        Para 2 : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel tenetur blanditiis eaque cupiditate
+        inventore minima corporis magnam minus totam explicabo provident reprehenderit labore consequatur a voluptatibus
+        dolorem, soluta odit rerum ad voluptatem vero pariatur! Laudantium aperiam iusto nisi minus! Consectetur
+        laudantium eligendi, in, mollitia odio perspiciatis explicabo, quidem quibusdam voluptas rerum cupiditate!
+        Mollitia assumenda neque consequuntur dicta, quam sit iste nisi aperiam et, exercitationem architecto esse
+        quibusdam molestiae itaque impedit officia error. Harum, inventore maiores reprehenderit laboriosam placeat
+        consequuntur necessitatibus quod, tempora praesentium ad veritatis quaerat fugiat ipsam, et qui iste modi. Quos
+        quaerat ad rem velit molestiae consectetur eaque.
+    </p>
+
+    <p class="para3">Para 3 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati, esse inventore totam velit laborum aut dolorem nisi nesciunt consequuntur enim laboriosam error? Inventore officia unde ipsa itaque rerum. Vitae esse repellendus numquam consequatur expedita ea doloremque magni autem atque rerum cum commodi, asperiores nisi reprehenderit quidem impedit cumque. Voluptate aspernatur dolorum nobis. Fuga alias earum veniam molestiae praesentium accusantium soluta vitae repellendus officia voluptate ipsam harum, totam, dolores ad facilis placeat ratione! Saepe distinctio, ex placeat doloribus eos neque, numquam quia ea excepturi impedit repellendus assumenda beatae voluptatum odio sit fugiat natus veniam porro! Nam quos praesentium aperiam aliquam!</p>
+
+    <span>26 th January is celebrated as REPUBLIC DAY</span>
+
+    <div>
+        <p>
+            <span> My name is Gaurav Deshmukh </span>
+        </p>
+    </div>
+
+    <div>
+        <ol>
+            <li><a href="https:/www.google.com">Google Link</a></li>
+            <li><a href="https:/www.instagram.com">Instagram Link</a></li>
+        </ol>
+    </div>
+
+    <div>
+        <p id="unique_id">This is Unique Selector</p>
+    </div>
+
+
+
+    <hr>
+
+    <!-- Table colspan and rowspan -->
+
+    <table>
+
+        <caption>TABLE</caption>
+
+        <tr>
+            <th colspan="2">Animals</th>
+        </tr>
+
+        <tr>
+            <td>Cat</td>
+            <td>Monkey</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Fruits</th>
+            <td>Apple</td>
+        </tr>
+
+        <tr>
+            <td>Orange</td>
+        </tr>
+
+        <tr>
+            <th colspan="2">Vegetables</th>
+        </tr>
+
+        <tr>
+            <td>Tommato</td>
+            <td>Pottato</td>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>

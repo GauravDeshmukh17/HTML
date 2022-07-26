@@ -1,0 +1,51 @@
+html{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+
+    margin-left: 2vw;
+    list-style: none;
+}
+
+ul{
+    
+    display: flex;
+}
+
+.skills{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills>div{
+
+    text-align: center;
+}
+
+p{
+
+    margin-left: 2vw;
+}
+
+.footer{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.footer{
+
+    padding: 0.2vw;
+}
+
+
